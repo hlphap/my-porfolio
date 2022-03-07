@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="assets/css/styles.css" />
+
+        <!-- =====BOX ICONS===== -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">HUYNH LONG PHAP</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">Skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">Work</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Hi,<br />I'am <span class="home__title-color">Phap</span
+                        ><br />
+                        Front End Developer
+                    </h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+                <div class="home__social">
+                    <a
+                        href="https://www.facebook.com/phap.huynh.767/"
+                        class="home__social-icon"
+                        ><i class="bx bxl-facebook"></i
+                    ></a>
+                    <a
+                        href="https://www.figma.com/@hlphap"
+                        class="home__social-icon"
+                        ><i class="bx bxl-figma"></i
+                    ></a>
+                    <a
+                        href="https://github.com/hlphap"
+                        class="home__social-icon"
+                        ><i class="bx bxl-github"></i
+                    ></a>
+                </div>
+                <div class="home__img">
+                    <image class="home__blob-img" src="assets/img/avatar.jpg" />
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/avatar.jpg" alt="" />
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Phap</h2>
+                        <p class="about__text">
+                            I am twenty-three years old. I am a University of
+                            Information Technology student. My major is Software
+                            Engineering, and I am now in my fourth year of
+                            studies. <br />I've learned working attitude with
+                            responsibility and adaptability. I hope that my
+                            skill is suitable for the company.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">
+                            I enjoy learning new stuff on the internet and
+                            coding. <br />
+                            My goal is to become a fullstack developer. I began
+                            studying and working with NodeJS at the beginning of
+                            March. After 6 months, I moved to learning ReactJS,
+                            which I am still learning today.
+                        </p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="bx bxl-html5 skills__icon"></i>
+                                <span class="skills__name"
+                                    >Knowledge of HTML, CSS, JavaScript and
+                                    basic TypeScript programming language.</span
+                                >
+                            </div>
+                            <div class="skills__bar skills__html"></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="bx bxl-react skills__icon"></i>
+                                <span class="skills__name"
+                                    >Knowledge of ReactJS</span
+                                >
+                            </div>
+                            <div class="skills__bar skills__ux"></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="bx bxl-nodejs skills__icon"></i>
+                                <span class="skills__name"
+                                    >Have basic knowledge of NodeJS, ExpressJS,
+                                    MongoDB</span
+                                >
+                            </div>
+                            <div class="skills__bar skills__ux"></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="bx bxs-paint skills__icon"></i>
+                                <span class="skills__name"
+                                    >Have basic knowledge of UX/UI/Responsive
+                                    Design</span
+                                >
+                            </div>
+                            <div class="skills__bar skills__ux"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img
+                            src="assets/img/work3.jpg"
+                            alt=""
+                            class="skills__img"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+                <div class="work__container bd-grid">
+                    <a href="" class="work__img">
+                        <img src="assets/img/fast-img.png" alt="" />
+                    </a>
+                    <ul class="work__content">
+                        <li class="work__content-item">
+                            <span class="work__content-heading">
+                                Project name:
+                            </span>
+                            <span class="work__content-heading--name">
+                                FAST DELIVERY</span
+                            >
+                        </li>
+                        <li class="work__content-item">
+                            <span class="work__content-heading">
+                                Description:
+                            </span>
+                            Build a fast delivery system with applications for
+                            management, stores, and delivery employees.
+                        </li>
+                        <li class="work__content-item">
+                            <span class="work__content-heading">
+                                Technology
+                            </span>
+                            <ul class="work__content-techs">
+                                <li class="work__content-tech">
+                                    HTML5/CSS3 and ReactJS library for front-end
+                                </li>
+                                <li class="work__content-tech">
+                                    NodeJS/ExpressJS and TypeScript for
+                                    back-end.
+                                </li>
+                                <li class="work__content-tech">
+                                    JWT for authentication
+                                </li>
+                                <li class="work__content-tech">
+                                    MongoDB for database.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="work__content-item">
+                            <span class="work__content-heading"> Source </span>
+                            <ul class="work__content-techs">
+                                <li class="work__content-tech">
+                                    Front-end:
+                                    <a
+                                        href=" https://github.com/hlphap/fast-delivery-ui"
+                                    >
+                                        Link Github
+                                    </a>
+                                </li>
+                                <li class="work__content-tech">
+                                    Back-end:
+                                    <a
+                                        href=" https://github.com/hlphap/fast-delivery"
+                                    >
+                                        Link Github
+                                    </a>
+                                </li>
+                                <li class="work__content-tech">
+                                    Design:
+                                    <a
+                                        href="https://www.figma.com/community/file/1082105162331327242/Delivery-App"
+                                    >
+                                        Link Mobile Design
+                                    </a>
+                                    <a
+                                        class="work__content-tech-link--has-line"
+                                        href="https://www.figma.com/community/file/1082105162331327242/Delivery-App"
+                                    >
+                                        Link Web Design
+                                    </a>
+                                </li>
+                                <li class="work__content-tech">
+                                    Go live:
+                                    <a
+                                        href="https://fast-delivery-ui.herokuapp.com/"
+                                    >
+                                        Link HerokuApp
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a
+                        href="https://cake-store-app.herokuapp.com/"
+                        class="work__img"
+                    >
+                        <img src="assets/img/cake-img.png" alt="" />
+                    </a>
+                    <ul class="work__content">
+                        <li class="work__content-item">
+                            <span class="work__content-heading">
+                                Project name:
+                            </span>
+                            <span class="work__content-heading--name">
+                                CAKE STORE</span
+                            >
+                        </li>
+                        <li class="work__content-item">
+                            <span class="work__content-heading">
+                                Description:
+                            </span>
+                            An e-commerce website selling cakes and pastry shop
+                            information
+                        </li>
+                        <li class="work__content-item">
+                            <span class="work__content-heading">
+                                Technology
+                            </span>
+                            <ul class="work__content-techs">
+                                <li class="work__content-tech">
+                                    Handlebar for template engine.
+                                </li>
+                                <li class="work__content-tech">
+                                    NodeJS/ExpressJS for back-end.
+                                </li>
+                                <li class="work__content-tech">
+                                    JWT and PassportJS for authentication.
+                                </li>
+                                <li class="work__content-tech">
+                                    MongoDB for database.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="work__content-item">
+                            <span class="work__content-heading"> Source </span>
+                            <ul class="work__content-techs">
+                                <li class="work__content-tech">
+                                    FE&BE:
+                                    <a
+                                        href=" https://github.com/hlphap/fast-delivery-ui"
+                                    >
+                                        Link Github
+                                    </a>
+                                </li>
+                                <li class="work__content-tech">
+                                    Go live:
+                                    <a
+                                        href="https://cake-store-app.herokuapp.com/"
+                                    >
+                                        Link HerokuApp
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="" class="work__img">
+                        <img src="assets/img/fpt-img.png" alt="" />
+                    </a>
+                    <ul class="work__content">
+                        <li class="work__content-item">
+                            <span class="work__content-heading">
+                                Project name:
+                            </span>
+                            <span class="work__content-heading--name">
+                                LANDING PAGE FPT SHOP</span
+                            >
+                        </li>
+                        <li class="work__content-item">
+                            <span class="work__content-heading">
+                                Description:
+                            </span>
+                            Review HTML/CSS with mini project
+                        </li>
+                        <li class="work__content-item">
+                            <span class="work__content-heading">
+                                Technology
+                            </span>
+                            <ul class="work__content-techs">
+                                <li class="work__content-tech">
+                                    HTML5/CSS3 for front-end
+                                </li>
+                                <li class="work__content-tech">
+                                    JavaScript for slider
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="work__content-item">
+                            <span class="work__content-heading"> Source </span>
+                            <ul class="work__content-techs">
+                                <li class="work__content-tech">
+                                    Front-end:
+                                    <a
+                                        href="https://github.com/hlphap/fpt-shop-ui"
+                                    >
+                                        Link Github
+                                    </a>
+                                </li>
+                                <li class="work__content-tech">
+                                    Go live:
+                                    <a
+                                        href="https://hlphap.github.io/fpt-shop-ui/"
+                                    >
+                                        Link HerokuApp
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input
+                            type="text"
+                            placeholder="Name"
+                            class="contact__input"
+                        />
+                        <input
+                            type="mail"
+                            placeholder="Email"
+                            class="contact__input"
+                        />
+                        <textarea
+                            name=""
+                            id=""
+                            cols="0"
+                            rows="10"
+                            class="contact__input"
+                        ></textarea>
+                        <input
+                            type="button"
+                            value="Enviar"
+                            class="contact__button button"
+                        />
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Huynh Long Phap</p>
+            <div class="footer__social">
+                <a href="mailto:longphapwork@gmail.com" class="footer__icon">
+                    <i class="bx bx-mail-send"></i>
+                    <span class="footer__social-content"
+                        >longphapwork@gmail.com</span
+                    >
+                </a>
+                <a href="tel:0352796298" class="footer__icon"
+                    ><i class="bx bxs-phone"></i>
+                    <span class="footer__social-content">0352796298</span></a
+                >
+            </div>
+            <p class="footer__copy">
+                Address: Linh Trung, Thu Duc, Ho Chi Minh City
+            </p>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
